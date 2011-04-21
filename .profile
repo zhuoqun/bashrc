@@ -1,2 +1,5 @@
-# Don't care if it's a login shell or not, just give me my goddamn aliases.
+# For Mac OS X
 source ~/.bashrc
+
+# make case insensitive tab completion
+bind "set completion-ignore-case on"
