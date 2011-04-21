@@ -20,6 +20,11 @@ esac
 #
 # Basic, always-on aliases
 #
+alias ll='ls -lahF'
+alias l='ll'
+alias grep='grep --color'
+alias egrep='egrep --color'
+alias less='less -R'
 
 # Sudo
 alias svim='sudo vim'

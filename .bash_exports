@@ -3,6 +3,7 @@
 # General
 export TERM="xterm-color"
 export EDITOR=vim
+export PAGER=less
 
 # PATH
 my_path=$HOME/bin
