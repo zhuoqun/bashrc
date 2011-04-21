@@ -1,0 +1,17 @@
+# vim:set ft=sh :
+
+# General
+export TERM="xterm-color"
+export EDITOR=vim
+
+# PATH
+my_path=$HOME/bin
+ruby_path=/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin
+local_path=/usr/local/bin:/usr/local/sbin
+export PATH=$my_path:$vmware_path:$ruby_path:$local_path:$PATH
+
+# History stuff
+shopt -s histappend
+#shopt -s histverify
+export HISTSIZE=
+export HISTFILESIZE=
