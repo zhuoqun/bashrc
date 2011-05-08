@@ -25,6 +25,7 @@ alias l='ll'
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias less='less -R'
+alias v='vim .'
 
 # Sudo
 alias svim='sudo vim'
@@ -80,7 +81,6 @@ alias screen='TERM=screen screen'
 alias rmpyc='find . -type f -name "*.pyc" -print0 | xargs -0 rm'
 alias rap="sudo /etc/init.d/apache2 reload"
 alias ports="sudo lsof -i -P -sTCP:LISTEN"
-alias v=vagrant
 
 
 #
